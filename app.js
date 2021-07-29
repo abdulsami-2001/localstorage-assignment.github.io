@@ -2,7 +2,7 @@
 //Roll No: 20385
 
 // Question 1
-/*
+
 let itemsArray = [
     {name:"juice",price:50, quantity:3},
     {name:"cookie",price:30, quantity:9},
@@ -17,10 +17,10 @@ itemsArray.forEach((item,index)=>{
 })
 
 console.log(`\nTotal Price of is ${overallPrice}`)
-*/
+
 // Question 2
 
-/*
+
 let person = {
     firstName: "Muhammad",
     lastName:"Sami",
@@ -45,9 +45,9 @@ if(person.firstName || person.lastName){
     console.log("Not Available!")
 }
 
-*/
 
-/*
+
+
 
 // Question 3
 
@@ -68,10 +68,10 @@ console.log(`${IphoneX_Max.name} Price: ${IphoneX_Max.price}`)
 console.log(`${IphoneX_Max_Pro.name} Price: ${IphoneX_Max_Pro.price}`)
 
 
-*/
+
 
 // Question 4
-/*
+
 function Users(Name, Gender, Address, Education, Profession) {
     this.Name = Name;
     this.Gender = Gender;
@@ -90,7 +90,6 @@ function onSubmit(){
 
     let newUser = new Users(name,gender,address,education,profession)
     let previusData = JSON.parse(localStorage.getItem("Users"))
-    console.log(previusData)
     if(JSON.parse(localStorage.getItem("Users")) != null ){
         localStorage.setItem("Users",JSON.stringify([...previusData,newUser]))
         
@@ -99,21 +98,12 @@ function onSubmit(){
     }
     document.getElementById("Name").value = ""
     document.getElementById("Address").value = ""
+    console.log(localStorage.getItem("Users"))
 }
 
-*/
 
 
 
 
 
 
-
-
-// var data = {
-//     name : document.getElementById("Name").value,
-//     gender: document.getElementById("Gender").value,
-//     address: document.getElementById("Address").value,
-//     education: document.getElementById("Education").value,
-//     profession: document.getElementById("Profession").value
-// }
